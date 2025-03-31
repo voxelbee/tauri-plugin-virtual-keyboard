@@ -55,6 +55,8 @@ class ExamplePlugin: Plugin {
     
     webview.scrollView.contentInsetAdjustmentBehavior = .never
     webview.scrollView.isScrollEnabled = false
+    webview.scrollView.delegate = self
+    webview.scrollView.keyboardDismissMode = .interactive
     webview.isOpaque = false
   }
 }
