@@ -54,7 +54,7 @@ class ExamplePlugin: Plugin {
     webview.setupKeyboardObservers()
     
     webview.scrollView.contentInsetAdjustmentBehavior = .never
-    webview.scrollView.isScrollEnabled = false
+    // webview.scrollView.isScrollEnabled = false
     webview.scrollView.keyboardDismissMode = .interactive
     webview.isOpaque = false
   }
